@@ -9,6 +9,16 @@
         $('.nav-container-inner').slideToggle();
     });
 
+    // 为相册增加一个body类，写自己的样式
+    if(location.href.indexOf('photo') > -1 && $(document).width() > 950){
+        $('body').addClass('bodyPhoto');
+
+        // 去掉文章内的换行
+        $('.main-body-content').hide();
+        $('.main-body-content').html($('.main-body-content').html().replace(/\<br\>/g, ''));
+        $('.main-body-content').show();
+    }
+
     // Caption
     $('.article-entry').each(function(i) {
         $(this).find('img').each(function() {
@@ -49,7 +59,6 @@
             $('#sidebar').addClass('expend');
         }
     });
-
 
     // Remove extra main nav wrap
     $('.main-nav-list > li').unwrap();

@@ -343,6 +343,14 @@ code {
 #main .main-body-content:after {
   clear: both;
 }
+.bodyPhoto .main-body-content .gallery-item {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.bodyPhoto .main-body-content .gallery-item img {
+  max-width: 200px;
+  height: auto;
+}
 #header {
   background: #26272b;
   padding-bottom: 60px;
@@ -358,6 +366,10 @@ code {
 #header-title {
   text-align: center;
   padding: 30px 30px;
+  background: url("http://7xp83s.com1.z0.glb.clouddn.com/bg.jpg");
+  -webkit-background-size: auto 240px;
+  -moz-background-size: auto 240px;
+  background-size: auto 240px;
 }
 #header-title:before,
 #header-title:after {
@@ -378,7 +390,7 @@ code {
 #header-title .subtitle {
   font-size: 16px;
   font-style: italic;
-  line-height: 70px;
+  line-height: 30px;
   color: rgba(255,255,255,0.7);
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
@@ -2155,5 +2167,25 @@ i.icon:before {
   }
   #footer .credit {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #header-title {
+    -webkit-background-size: 1120px auto;
+    -moz-background-size: 1120px auto;
+    background-size: 1120px auto;
+    background-position-y: -489px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #header-title {
+    background: url("http://7xp83s.com1.z0.glb.clouddn.com/bg-dogs.jpeg");
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: 0 50%;
+  }
+  .subtitle {
+    color: #fff !important;
   }
 }
