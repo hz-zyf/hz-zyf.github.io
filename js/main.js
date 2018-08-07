@@ -17,6 +17,13 @@
         $('.main-body-content').hide();
         $('.main-body-content').html($('.main-body-content').html().replace(/\<br\>/g, ''));
         $('.main-body-content').show();
+        window.setTimeout(function(){
+            $('.article-entry').masonry({
+              // options
+              itemSelector: '.gallery-item',
+              columnWidth: 0
+            });
+        }, 200)
     }
 
     // Caption
