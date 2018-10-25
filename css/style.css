@@ -276,7 +276,7 @@ code {
   padding: 10px 0;
   width: 60px;
   height: 60px;
-  background-image: url("http://7xp83s.com1.z0.glb.clouddn.com/logo.jpg");
+  background-image: url("https://web-storage-1257894433.cos.ap-shanghai.myqcloud.com/holdyourhand/base/logo.png");
   background-position: 0px 10px;
   background-repeat: no-repeat;
   -webkit-background-size: 60px 60px;
@@ -364,7 +364,7 @@ code {
   height: auto;
 }
 #header {
-  background: url("http://7xp83s.com1.z0.glb.clouddn.com/组2.png");
+  background: url("https://web-storage-1257894433.cos.ap-shanghai.myqcloud.com/holdyourhand/base/web-bg.png");
   padding-bottom: 60px;
   position: relative;
 }
@@ -2190,7 +2190,7 @@ i.icon:before {
 }
 @media only screen and (max-width: 900px) {
   #header-title {
-    background: url("http://7xp83s.com1.z0.glb.clouddn.com/bg-dogs.jpeg");
+    background: url("https://web-storage-1257894433.cos.ap-shanghai.myqcloud.com/holdyourhand/base/wap-bg.png");
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     background-size: 100% auto;
